@@ -30,7 +30,9 @@ namespace Cheers
                    Console.WriteLine(cheer_prefix + ".. " + user_name[i].ToString() );  
                 }
             */
-                //implicit conversion
+            
+            
+            //implicit conversion  last refactoring
             for (int i = 0; i < user_name.Length; i++)
             {
                 if (requires_an.Contains(user_name[i]))
