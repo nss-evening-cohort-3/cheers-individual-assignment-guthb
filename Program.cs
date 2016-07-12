@@ -9,13 +9,19 @@ namespace Cheers
     {
         public static void Main(string[] args)
         {
+            //varibles section
+            string prompt ="> ";
+            string cheer_prefix = "give me a.. ";
+
+
             Console.WriteLine("What is your name?");
-            Console.Write("> ");
+            Console.Write(prompt);
+           
             string user_name = Console.ReadLine(); //Read from terminal, save to variable
             
             for (int i = 0; i < user_name.Length; i++)
             {
-                Console.WriteLine("give me a.. " + user_name[i]); 
+                Console.WriteLine(cheer_prefix + user_name[i]); 
             }
 
 
